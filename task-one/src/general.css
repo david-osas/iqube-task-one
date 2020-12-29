@@ -1,0 +1,33 @@
+.app-container{
+  margin: 7% 25%;
+}
+.app-heading{
+  color: #4E598C;
+}
+.app-btn-group{
+  margin-top: 50px;
+  display: flex;
+}
+.app-btn-filled{
+  color: white;
+  width: 150px;
+  background-image: linear-gradient(#F2C94C, #F2994A);
+  margin-right: 30px;
+}
+.app-btn-text{
+  color: #4E598C;
+  font-weight: bold;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form component */
+.custom-form-label{
+  color: black;
+  font-weight: bold;
+}
+.custom-form-text{
+  margin-bottom: 10px;
+}
