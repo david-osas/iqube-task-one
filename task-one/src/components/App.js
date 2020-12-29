@@ -1,6 +1,8 @@
 import {Switch, Route} from 'react-router-dom';
 import Form from './Form';
 import Tab from './Tab';
+import ConfirmPayment from './ConfirmPayment';
+import ButtonGroup from './ButtonGroup';
 
 function App() {
   return (
@@ -10,16 +12,22 @@ function App() {
           <h1 className='app-heading'>Complete your Purchase</h1>
           <Tab />
           <Form stage='personal' />
+          <ButtonGroup />
         </Route>
         <Route exact path='/billing'>
           <h1 className='app-heading'>Complete your Purchase</h1>
           <Tab />
           <Form stage='billing' />
+          <ButtonGroup />
         </Route>
         <Route exact path='/payment'>
           <h1 className='app-heading'>Complete your Purchase</h1>
           <Tab />
-          <Form stage='payment' />
+          <ConfirmPayment />
+          <ButtonGroup />
+        </Route>
+        <Route exact path='/complete'>
+          
         </Route>
 
       </Switch>

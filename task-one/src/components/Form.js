@@ -1,7 +1,6 @@
 import PlainInput from './PlainInput';
 import SelectInput from './SelectInput';
 import FormGroup from './FormGroup';
-import ButtonGroup from './ButtonGroup';
 
 import {personal, personalGroup, billing, billingGroup} from '../formDetails';
 
@@ -37,7 +36,6 @@ function Form({stage}){
 
       <FormGroup data={dataGroup} stage={stage} />
 
-      <ButtonGroup />
     </form>
   );
 }
