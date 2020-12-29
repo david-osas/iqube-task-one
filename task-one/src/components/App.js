@@ -2,6 +2,7 @@ import {Switch, Route} from 'react-router-dom';
 import Form from './Form';
 import Tab from './Tab';
 import ConfirmPayment from './ConfirmPayment';
+import CompletePayment from './CompletePayment';
 import ButtonGroup from './ButtonGroup';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <ButtonGroup />
         </Route>
         <Route exact path='/complete'>
-          
+          <CompletePayment />
         </Route>
 
       </Switch>

@@ -46,9 +46,18 @@
 
 /* ConfirmPayment component */
 .app-card-details{
-  height: 300px;
+  height: 50%;
   border-radius: 10px;
-  padding-top: 50px;
+  box-shadow: 0 10px 15px rgba(33, 30, 67, 0.08);
+  padding-bottom: 5%;
+}
+.app-card-header{
+  border-radius: 10px 10px 0 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  background-color: #2F80ED;
+  color: white;
 }
 .app-card-text{
   margin: 20px 0;
@@ -70,11 +79,26 @@
   border-radius: 5px;
   padding: 10px 45px 10px 20px;
 }
-.app-card-header{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #2F80ED;
-  color: white;
+
+/* Complete payment */
+.complete-card{
+  padding: 5% 20% 10% 15%;
+  height: 40%;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(33, 30, 67, 0.08)
+}
+.complete-heading{
+  color: #4E598C;
+  font-weight: 700;
+  font-size: 48px;
+}
+.complete-link{
+  color: #F2994A;
+}
+.payment-icon{
+  width: 84px;
+  height: 84px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

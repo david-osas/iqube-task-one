@@ -14,19 +14,17 @@ function ConfirmPayment(){
   let total = '50,000.00';
 
   return(
-    <div className='shadow'>
+    <div className='app-card-details'>
       <div className='app-card-header'>
         <Row first='Item Name' second='# Price'/>
       </div>
-      <div className='app-card-details'>
-        {details.map((item) => <div className='app-card-text'>
-          <Row first={item.name} second={item.price}/>
-        </div>)}
-        <hr className='app-rule'/>
-        <div className='app-row app-card-total'>
-          <span>Total</span>
-          <span>{total}</span>
-        </div>
+      {details.map((item) => <div className='app-card-text'>
+        <Row first={item.name} second={item.price}/>
+      </div>)}
+      <hr className='app-rule'/>
+      <div className='app-row app-card-total'>
+        <span>Total</span>
+        <span>{total}</span>
       </div>
     </div>
 
