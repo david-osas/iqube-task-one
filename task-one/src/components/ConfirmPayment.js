@@ -18,7 +18,7 @@ function ConfirmPayment(){
       <div className='app-card-header'>
         <Row first='Item Name' second='# Price'/>
       </div>
-      {details.map((item) => <div className='app-card-text'>
+      {details.map((item) => <div key={item.name} className='app-card-text'>
         <Row first={item.name} second={item.price}/>
       </div>)}
       <hr className='app-rule'/>
