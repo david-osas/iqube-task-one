@@ -4,6 +4,17 @@
 .app-heading{
   color: #4E598C;
 }
+.app-tab{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tab-link{
+  text-decoration: none;
+  color: #BDBDBD;
+  font-weight: 600;
+}
 .app-btn-group{
   margin-top: 50px;
   display: flex;
