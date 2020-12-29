@@ -41,4 +41,41 @@ const personalGroup = [
   }
 ]
 
-export{personal, personalGroup};
+const billing = [
+  {
+    title: 'Name on Card',
+    text: null,
+    asterisk: true,
+    type: 'text',
+  },
+  {
+    title: 'Card Type',
+    text: null,
+    asterisk: true,
+    type: 'select',
+    options: ['Select a card', 'Visa', 'Mastercard', 'Verve'],
+  }
+]
+
+const billingGroup = [
+  {
+    title: 'Card details',
+    text: null,
+    asterisk: true,
+    type: 'number',
+  },
+  {
+    title: 'Expiry date',
+    text: null,
+    asterisk: true,
+    type: 'month',
+  },
+  {
+    title: 'CVV',
+    text: null,
+    asterisk: true,
+    type: 'number',
+  }
+]
+
+export{personal, personalGroup, billing, billingGroup};
