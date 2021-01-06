@@ -4,16 +4,34 @@
 .app-heading{
   color: #4E598C;
 }
+
+.tab-bar{
+  position: absolute;
+  z-index: 1;
+  width: 11%;
+}
+.tab-bar-start{
+  left: 25%;
+}
+.tab-bar-center{
+  left: 43%;
+}
+.tab-bar-end{
+  right: 25%;
+}
+.tab-color{
+  color: #F2994A !important;
+}
 .app-tab{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .tab-link{
   color: #BDBDBD;
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 24px;
 }
 .app-btn-group{
   margin-top: 50px;
