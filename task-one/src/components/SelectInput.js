@@ -1,9 +1,13 @@
+import asterisk from '../asterisk.svg';
 
 function SelectInput({item}){
 
   return(
     <>
-    <label htmlFor={item.title} className="form-label custom-form-label">{item.title}</label>
+    <label htmlFor={item.title} className="form-label custom-form-label">
+      {item.title}
+      {item.asterisk && <img src={asterisk} alt='asterisk' />}
+    </label>
     {item.text && <div id={item.text} className="form-text custom-form-text">{item.text}</div>}
 
     <select className="form-select" aria-label={item.title}

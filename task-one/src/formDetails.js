@@ -1,24 +1,24 @@
 const personal = [
   {
-    title: 'Name',
+    title: 'Name ',
     text: null,
     asterisk: false,
     type: 'text',
   },
   {
-    title: 'Email Address',
+    title: 'Email Address ',
     text: 'The purchase receipt would be sent to this address',
     asterisk: true,
     type: 'email',
   },
   {
-    title: 'Address 1',
+    title: 'Address 1 ',
     text: null,
     asterisk: false,
     type: 'text',
   },
   {
-    title: 'Address 2',
+    title: 'Address 2 ',
     text: null,
     asterisk: false,
     type: 'text',
@@ -27,13 +27,13 @@ const personal = [
 
 const personalGroup = [
   {
-    title: 'Local Government',
+    title: 'Local Government ',
     text: null,
     asterisk: false,
     type: 'text',
   },
   {
-    title: 'State',
+    title: 'State ',
     text: null,
     asterisk: false,
     type: 'select',
@@ -43,13 +43,13 @@ const personalGroup = [
 
 const billing = [
   {
-    title: 'Name on Card',
+    title: 'Name on Card ',
     text: null,
     asterisk: true,
     type: 'text',
   },
   {
-    title: 'Card Type',
+    title: 'Card Type ',
     text: null,
     asterisk: true,
     type: 'select',
@@ -59,19 +59,19 @@ const billing = [
 
 const billingGroup = [
   {
-    title: 'Card details',
+    title: 'Card details ',
     text: null,
     asterisk: true,
     type: 'number',
   },
   {
-    title: 'Expiry date',
+    title: 'Expiry date ',
     text: null,
     asterisk: true,
     type: 'month',
   },
   {
-    title: 'CVV',
+    title: 'CVV ',
     text: null,
     asterisk: true,
     type: 'number',
